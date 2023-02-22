@@ -1,7 +1,7 @@
 import SiteWorker
 import config
 
-site = SiteWorker.Site(url="https://lyc1550.mskobr.ru")
+site = SiteWorker.Site(url="https://lyc****.mskobr.ru")
 is_logged = site.authorization(login=config.login, password=config.password)
 
 if not is_logged:
